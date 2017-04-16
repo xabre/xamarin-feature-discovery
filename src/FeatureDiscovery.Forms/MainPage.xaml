@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Plugin.FeatureDiscovery.Forms"
+             x:Class="Plugin.FeatureDiscovery.Forms.MainPage"
+             Title="Material Feature Discovery">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbarItem" Text="Item" Order="Primary" AutomationId="sampleItem"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="Welcome to Xamarin Forms!" 
+               x:Name="lblWelcome"
+               Margin="30"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+
+        <Button x:Name="btnTest" Text="Test" Clicked="Button_Clicked">
+
+        </Button>
+        <BoxView HeightRequest="100"/>
+        <Switch x:Name="switch" HorizontalOptions="End"></Switch>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btnLeft" Text="Left" HorizontalOptions="Start"/>
+            <Button x:Name="btnRight" Text="Right" HorizontalOptions="End"/>
+        </StackLayout>
+
+        <local:FeatureDiscoverySequence x:Name="tapTargetSequence">
+            <local:FeatureDiscoverySequence.Targets>
+                <local:FeatureDiscoveryTarget Target="{x:Reference Name=toolbarItem}"/>
+                <local:FeatureDiscoveryTarget Target="{x:Reference Name=btnLeft}"/>
+                <local:FeatureDiscoveryTarget Target="{x:Reference Name=btnRight}"/>
+                <local:FeatureDiscoveryTarget Target="{x:Reference Name=switch}"/>
+                <local:FeatureDiscoveryTarget Target="{x:Reference Name=btnTest}"/>
+            </local:FeatureDiscoverySequence.Targets>
+        </local:FeatureDiscoverySequence>
+    </StackLayout>
+</ContentPage>
