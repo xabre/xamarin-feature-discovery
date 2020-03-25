@@ -4,8 +4,8 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
-using Android.Support.V7.Widget;
 using Android.OS;
+using AndroidX.AppCompat.Widget;
 
 namespace Plugin.FeatureDiscovery.Forms.Android
 {

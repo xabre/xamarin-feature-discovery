@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{9FD83079-8EC4-44F4-BACC-8855398319A2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FeatureDiscvoery.Forms.Android/MainActivity.cs">
+    <Files>
+      <File FileName="FeatureDiscvoery.Forms.Android/Resources/values/styles.xml" Line="4" Column="1" />
+      <File FileName="FeatureDiscvoery.Forms.Android/SequenceRenderer.cs" Line="12" Column="22" />
+      <File FileName="FeatureDiscvoery.Forms.Android/MainActivity.cs" Line="6" Column="21" />
+      <File FileName="FeatureDiscvoery.Forms.Android/packages.config" Line="46" Column="12" />
+      <File FileName="FeatureDiscovery.Forms/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="FeatureDiscovery.Forms/obj/Debug/netstandard2.0/Plugin.FeatureDiscovery.Forms.AssemblyInfo.cs" Line="14" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1808" Column="2" />
+      <File FileName="FeatureDiscvoery.Forms.iOS/AppDelegate.cs" Line="27" Column="35" />
+      <File FileName="FeatureDiscovery.Sample.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="FeatureDiscvoery.Forms.Android/TestRenderer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MaterialFeatureDiscovery" expanded="True">
+            <Node name="Plugin.FeatureDiscovery.Forms.Android" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+            <Node name="Plugin.FeatureDiscovery.Forms.iOS" expanded="True" />
+            <Node name="Plugin.FeatureDiscovery.Sample.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Plugin.FeatureDiscovery.Core.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
